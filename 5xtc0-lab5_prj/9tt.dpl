@@ -1,0 +1,42 @@
+<Qucs Schematic 25.1.1>
+<Properties>
+  <View=-55,20,1109,780,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=9tt.dat>
+  <DataDisplay=9tt.sch>
+  <OpenDisplay=0>
+  <Script=9tt.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Smith 80 449 289 289 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
+	<"S[1,1]" #0000ff 1 3 0 0 0>
+	  <Mkr 7e+08 207 -254 3 0 0>
+	<"S[2,2]" #ff0000 1 3 0 0 0>
+	  <Mkr 7e+08 190 -178 3 0 0>
+  </Smith>
+  <Rect 570 390 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
+	<"dBS11" #0000ff 1 3 0 0 0>
+	<"dBS12" #ff0000 1 3 0 0 0>
+	<"dBS22" #ff00ff 1 3 0 0 0>
+  </Rect>
+  <Rect 860 390 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
+	<"dBS21" #0000ff 1 3 0 0 0>
+  </Rect>
+  <Rect 580 640 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
+	<"K" #0000ff 1 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
