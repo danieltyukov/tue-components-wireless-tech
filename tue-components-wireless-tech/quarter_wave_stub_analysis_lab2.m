@@ -1,9 +1,6 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % MATLAB Code for Analyzing a Quarter-Wave Stub
-% (with an .s2p file exported from the NanoVNA)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% --- 1) Load S-parameter Data ---
+% --- 1) Load S-parameter Data
 % (Requires RF Toolbox in MATLAB)
 filename = 'quarter_wave_stub.s2p';
 sparamObj = sparameters(filename);
@@ -32,7 +29,6 @@ S21_dB    = 20*log10(abs(S21));
 S21_phase = rad2deg(angle(S21));
 
 % Input impedance seen at the port, derived from S11:
-%   Z_in = Z0 * (1 + S11) / (1 - S11)
 Z_in = Z0 * (1 + S11) ./ (1 - S11);
 
 % --- 3) Plot S11 in dB over Frequency ---
@@ -79,5 +75,3 @@ fprintf('S21 Phase (degrees)    : %.2f deg\n\n', S21_phase(idx));
 figure('Name','Smith Chart of S11');
 smith(sparamObj,1,1);  % Plot the S11 reflection data on a Smith chart
 title('Quarter-Wave Stub: Smith Chart (S11)');
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

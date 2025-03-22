@@ -1,9 +1,4 @@
-%==================================================================
-% Script:    process_s1p_data.m
-% Purpose:   Import S-parameter data from CST (.s1p file),
-%            plot S11 vs. frequency in dB, and show a Smith chart.
-% Author:    [Your Name], Lab 3
-%==================================================================
+% Import S-parameter data from CST (.s1p file),
 
 clear; clc; close all;
 
