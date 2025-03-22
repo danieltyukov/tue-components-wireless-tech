@@ -1,9 +1,9 @@
 <Qucs Schematic 25.1.1>
 <Properties>
-  <View=-278,-231,1208,947,0.93205,0,106>
+  <View=-30,-55,953,497,2.24644,2,0>
   <Grid=10,10,1>
-  <DataSet=9tt.dat>
-  <DataDisplay=9tt.dpl>
+  <DataSet=stand-alone-amplifier.dat>
+  <DataDisplay=stand-alone-amplifier.dpl>
   <OpenDisplay=0>
   <Script=9tt.m>
   <RunScript=0>
@@ -17,7 +17,7 @@
 </Symbol>
 <Components>
   <.SP SP1 1 40 50 0 64 0 0 "lin" 1 "0.1 GHz" 1 "1.5 GHz" 1 "141" 1 "yes" 1 "1" 0 "2" 0 "no" 0 "no" 0>
-  <SPfile X1 1 330 290 -26 -57 0 0 "/home/danieltyukov/QucsWorkspace/tue-components-wireless-tech/TAMP-72LN+_S2P/TAMP-72LN+___85mA___Plus25degC.S2P" 1 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
+  <SPfile X1 1 330 290 -319 82 0 0 "/home/danieltyukov/QucsWorkspace/tue-components-wireless-tech/TAMP-72LN+_S2P/TAMP-72LN+___85mA___Plus25degC.S2P" 1 "rectangular" 0 "linear" 0 "open" 0 "2" 0>
   <GND * 1 330 340 0 0 0 0>
   <GND * 1 180 290 0 0 0 3>
   <Pac P1 1 210 290 -26 -72 0 2 "1" 1 "50 Ohm" 1 "0 dBm" 0 "1 MHz" 0 "26.85" 0 "true" 0>

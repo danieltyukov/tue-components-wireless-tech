@@ -1,0 +1,26 @@
+
+.Def:LQW18AN22NG00_mod _netPORT1 _netPORT2 _ref
+  .Def:LQW18AN22NG00 _ref _netPORT1 _netPORT2
+  C:C1 _netPORT1 _netPORT2 C="2.56e-14"
+  L:L2 _netPORT1 _net1 L="2.46e-08"
+  R:R2 _net1 _netPORT2 R="0.12"
+  R:R3 _netPORT1 _netPORT2 R="36000"
+  L:L4 _netPORT1 _net2 L="2.17e-07"
+  R:R4 _net2 _netPORT2 R="10.9"
+  L:L5 _netPORT1 _net3 L="6.21e-07"
+  R:R5 _net3 _netPORT2 R="387"
+  L:L6 _netPORT1 _net4 L="1.37e-06"
+  R:R6 _net4 _netPORT2 R="9390"
+  L:L7 _netPORT1 _net5 L="1.62e-07"
+  C:C7 _net5 _net6 C="2.55e-15"
+  R:R7 _net6 _netPORT2 R="92"
+  L:L8 _netPORT1 _net7 L="3.72e-08"
+  C:C8 _net7 _net8 C="3.12e-15"
+  R:R8 _net8 _netPORT2 R="51.4"
+  L:L9 _netPORT1 _net9 L="1.07e-07"
+  C:C9 _net9 _net10 C="7.31e-16"
+  R:R9 _net10 _netPORT2 R="307"
+  .Def:End
+  Sub:X1 _ref _netPORT1 _netPORT2 Type="LQW18AN22NG00"
+.Def:End
+

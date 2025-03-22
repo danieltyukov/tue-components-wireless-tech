@@ -1,9 +1,9 @@
 <Qucs Schematic 25.1.1>
 <Properties>
-  <View=-614,-133,723,619,1.64996,0,0>
+  <View=-938,-14,914,547,2.21042,1463,0>
   <Grid=10,10,1>
-  <DataSet=amplifier-board_redesign.dat>
-  <DataDisplay=amplifier-board_redesign.dpl>
+  <DataSet=amplifier-board_redesign_2.dat>
+  <DataDisplay=amplifier-board_redesign_2.dpl>
   <OpenDisplay=0>
   <Script=9tt.m>
   <RunScript=0>
@@ -29,26 +29,20 @@
   <GND * 1 130 320 0 0 0 0>
   <GND * 1 -210 290 0 0 0 3>
   <Pac P1 1 -180 290 -26 -72 0 2 "1" 1 "50 Ohm" 1 "0 dBm" 0 "1 MHz" 0 "26.85" 0 "true" 0>
-  <GND * 1 450 290 0 0 1 3>
-  <Pac P2 1 420 290 -26 -72 1 0 "2" 1 "50 Ohm" 1 "0 dBm" 0 "1 MHz" 0 "26.85" 0 "true" 0>
-  <SPICE X2 1 -110 320 18 201 0 1 "/home/danieltyukov/QucsWorkspace/LQW18AN43NG00.mod" 1 "_netPORT1,_netPORT2" 0 "yes" 0 "none" 0 "" 0>
-  <GND * 1 -110 350 0 0 0 0>
-  <GND * 1 -80 320 0 0 0 1>
-  <GND * 1 350 350 0 0 0 0>
-  <GND * 1 380 320 0 0 0 1>
-  <C C1 1 -30 290 -26 17 0 0 "6.8 pF" 1 "" 0 "neutral" 0>
-  <C C2 1 280 290 -26 17 0 0 "15 pF" 1 "" 0 "neutral" 0>
-  <SPICE X3 1 350 320 -436 158 0 1 "/home/danieltyukov/QucsWorkspace/LQW18ANR27G00.mod" 1 "_netPORT1,_netPORT2" 0 "yes" 0 "none" 0 "" 0>
+  <GND * 1 390 290 0 0 1 3>
+  <Pac P2 1 360 290 -26 -72 1 0 "2" 1 "50 Ohm" 1 "0 dBm" 0 "1 MHz" 0 "26.85" 0 "true" 0>
+  <C C4 1 -30 290 -26 17 0 0 "6.8 pF" 1 "" 0 "neutral" 0>
+  <GND * 1 -130 350 0 0 0 0>
+  <GND * 1 -100 320 0 0 0 1>
+  <SPICE X3 1 -130 320 -768 114 0 1 "/home/danieltyukov/QucsWorkspace/LQW18AN43NG00.mod" 1 "_netPORT1,_netPORT2" 0 "yes" 0 "none" 0 "" 0>
 </Components>
 <Wires>
   <70 290 100 290 "" 0 0 0 "">
   <160 290 180 290 "" 0 0 0 "">
-  <240 290 250 290 "" 0 0 0 "">
+  <240 290 330 290 "" 0 0 0 "">
+  <-150 290 -130 290 "" 0 0 0 "">
   <0 290 10 290 "" 0 0 0 "">
-  <-150 290 -110 290 "" 0 0 0 "">
-  <310 290 350 290 "" 0 0 0 "">
-  <-110 290 -60 290 "" 0 0 0 "">
-  <350 290 390 290 "" 0 0 0 "">
+  <-130 290 -60 290 "" 0 0 0 "">
 </Wires>
 <Diagrams>
 </Diagrams>

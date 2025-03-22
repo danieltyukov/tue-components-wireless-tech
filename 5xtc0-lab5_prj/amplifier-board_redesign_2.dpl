@@ -1,0 +1,47 @@
+<Qucs Schematic 25.1.1>
+<Properties>
+  <View=0,-84,2206,1240,1.4641,1024,0>
+  <Grid=10,10,0>
+  <DataSet=amplifier-board_redesign_2.dat>
+  <DataDisplay=amplifier-board_redesign_2.sch>
+  <OpenDisplay=0>
+  <Script=amplifier-board_redesign_2.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Smith 820 330 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 1 0 0 "" "" "">
+	<"S[1,1]" #0000ff 1 3 0 0 0>
+	  <Mkr 7e+08 169 16 3 0 0>
+	<"S[2,2]" #ff0000 1 3 0 0 0>
+	  <Mkr 7e+08 135 -252 3 0 0>
+  </Smith>
+  <Rect 1180 570 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
+	<"dBS21" #0000ff 1 3 0 0 0>
+	  <Mkr 7e+08 256 -154 3 0 0>
+  </Rect>
+  <Rect 790 590 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
+	<"K" #0000ff 1 3 0 0 0>
+	  <Mkr 7e+08 178 -84 3 0 0>
+  </Rect>
+  <Rect 1230 330 240 160 3 #c0c0c0 1 00 1 0 5e+08 1.5e+09 1 -49.6216 20 4.12914 1 -1 1 1 315 0 225 1 0 0 "" "" "">
+	<"dBS11" #0000ff 1 3 0 0 0>
+	  <Mkr 7e+08 271 -190 3 0 0>
+	<"dBS22" #ff0000 1 3 0 0 0>
+	  <Mkr 7e+08 274 -101 3 0 0>
+	<"dBS12" #ff00ff 1 3 0 0 0>
+	  <Mkr 7e+08 277 -145 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
