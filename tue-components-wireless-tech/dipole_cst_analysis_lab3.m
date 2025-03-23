@@ -17,7 +17,7 @@ fprintf('Ideal dipole length  : %.3f mm (half-wave)\n', dipoleLength_ideal*1e3);
 disp(' ');
 
 %% --- 2. LOAD THE S-PARAMETER (Touchstone) FILE FROM CST ---
-filename = 'Dipole_antenna_student (1 GHz)_2024.s1p';
+filename = 'Dipole_antenna_student (1 GHz)_2024_lab3_114mm.s1p';
 disp('=== LOADING S-PARAMETERS ===');
 disp(['Using file: ', filename]);
 
