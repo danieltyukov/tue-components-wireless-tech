@@ -1,6 +1,6 @@
 <Qucs Schematic 25.1.1>
 <Properties>
-  <View=-938,-14,914,547,2.21042,1463,0>
+  <View=-938,-858,724,1366,0.557495,1,0>
   <Grid=10,10,1>
   <DataSet=amplifier-board_redesign_2.dat>
   <DataDisplay=amplifier-board_redesign_2.dpl>
@@ -34,7 +34,7 @@
   <C C4 1 -30 290 -26 17 0 0 "6.8 pF" 1 "" 0 "neutral" 0>
   <GND * 1 -130 350 0 0 0 0>
   <GND * 1 -100 320 0 0 0 1>
-  <SPICE X3 1 -130 320 -768 114 0 1 "/home/danieltyukov/QucsWorkspace/LQW18AN43NG00.mod" 1 "_netPORT1,_netPORT2" 0 "yes" 0 "none" 0 "" 0>
+  <SPICE X3 1 -130 320 -83 138 0 1 "/home/danieltyukov/QucsWorkspace/LQW18AN43NG00.mod" 1 "_netPORT1,_netPORT2" 0 "yes" 0 "none" 0 "" 0>
 </Components>
 <Wires>
   <70 290 100 290 "" 0 0 0 "">
